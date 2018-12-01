@@ -7,7 +7,7 @@
 
 require('./bootstrap');
 
-require('./dynamic-dropdown');
+// require('./dynamic-dropdown');
 
 window.Vue = require('vue');
 
@@ -18,6 +18,7 @@ window.Vue = require('vue');
  */
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
+Vue.component('product-form', require('./components/ProductFormComponent.vue'));
 
 const app = new Vue({
     el: '#app'
