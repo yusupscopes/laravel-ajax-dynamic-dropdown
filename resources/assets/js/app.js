@@ -7,6 +7,8 @@
 
 require('./bootstrap');
 
+require('./dynamic-dropdown');
+
 window.Vue = require('vue');
 
 /**
